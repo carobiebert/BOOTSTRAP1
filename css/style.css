@@ -15,3 +15,9 @@
 #main{
     background-image: url("../BOOTSTRAP/img/backgroundpattern.jpg");
 }
+
+#BAlogo{
+    min-width: 5rem;
+    max-width: 100%; 
+    height: auto;
+}
