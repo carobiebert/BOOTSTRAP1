@@ -1,0 +1,17 @@
+#header{
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(101, 78, 126)); 
+    background-repeat: repeat;
+}
+
+
+#header:hover{
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
+}
+
+#headercol h1:hover,h2:hover{
+    transform: scale(1.05);
+}
+
+#main{
+    background-image: url("../BOOTSTRAP/img/backgroundpattern.jpg");
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="width= device-width, initial-scale=1, maximum-scale=1">
+        <title>Probando BOOTSTRAP</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2cadb9a374.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="body" id="body" style="background-image: url('img/backgroundpattern.jpg'); background-repeat: repeat;">
+
+        <!-- GENERAL CONTAINER FLUID-->
+        <div class="container-fluid vw-100 justify-content-center">
+        
+            
+            <!-- FIRST ROW - NAVBAR-->
+            <nav class="row bg-warning border-dark justify-content-between align-self-start">
+
+                <!--LOGO SECTION-->
+
+                <div class="col-1 justify-content-center align-content-center">
+                    <img src="img/logo.png" alt="Logo BA Codo a Codo" class="img-fluid align-text-bottom" style="max-width: 100%; height: auto;">
+                </div>
+
+                <!-- COL - NAVBAR-->
+
+                <div class="col-11 col-lg-8 align-self-start ">
+
+                    <!-- NAVBAR-->
+
+                    <div class="navbar bg-warning text-black text-center bg-warning align-self-center ">
+
+
+                        <!-- WEB LINKS LIST-->
+                        <ul class="list-unstyled list-inline bg-warning" id="navlinks">
+
+
+                            <li class="list-inline-item" >
+                                <a href="../BOOTSTRAP/INDEX.html" class="link-dark text-decoration-none"> <b> HOME</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/acercade.html" class="link-dark text-decoration-none"> <b>ACERCA DEL PROGRAMA</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none"> <b>AULA VIRTUAL</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/faqs.html" class="link-dark text-decoration-none"> <b>PREGUNTAS FRECUENTES</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/formulario.html" class="link-dark text-decoration-none"> <b>CONTACTO</b> </a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- SECOND COL - SOCIAL MEDIA LINKS-->
+
+                <div class="col-12 col-lg-3 align-self-center">
+
+                    <!-- SOCIAL MEDIA LINKS LIST-->
+
+                    <ul class="list-unstyled list-inline bg-warning text-center text-lg-end" id="medialinks">
+
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" class="link-dark"><i class="fab fa-facebook"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/codoacodonews/" title="INSTAGRAM" class="link-dark"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="mailto.io.codoacodo@bue.edu.ar" title="CORREO ELECTRONICO" class="link-dark"><i class="fas fa-envelope"></i></a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+        
+            </nav> 
+
+
+
+
+
+
+            <div class="classiccontainer m-3 p-3" style="background-color: white;">
+
+                <h2>FORMULARIO DE CONTACTO</h2>   
+
+                <form id="forms" action="show_data.html" target="_blank">
+                
+                    <label for="firstname">Nombre: </label><input type="text" name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..."> <br><br>
+                    <label for="lastname">Apellido:</label><input type="text" name="lastname"  id="lastname"   placeholder="Ingrese su apellido aqui..."> <br><br>
+                    <label for="telefono">Telefono:</label><input type="tel"  name="telefono"  id="telefono" placeholder="ingrese su telefono aqui ...."> <br><br>
+                    <label for="mail">Dirección de correo electrónico: </label><input type="email"    name="mail"      id="mail"      > <br><br>
+                    <label for="comentarios">Comentarios:</label> <textarea name="comentarios" rows="10" cols="30"></textarea><br><br><br>
+                    <input type="submit" value="Enviar">
+
+                </form>
+            
+            <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- FOURTH ROW - FOOTER -->
+            <div class="container vw-100 p-2 p-lg-2 justify-content-center align-items-center m-0" id="footer">
+                    
+                <div class="row justify-content-center align-items-center vw-100" style="background:rgb(141, 31, 231) repeat; height: auto; height:fit-content;">
+                        <!--IFRAME SECTION-->
+
+
+                            <iframe class=" col-12 col-lg-6 p-2  embed-responsive-item" src="https://www.youtube.com/embed/79wd8_lZx3g" style=" margin: 4rem;width: 30rem; height: 20rem;">IFRAME A VIDEO DE YOUTUBE</iframe>
+                            
+
+                        <!--CONTACT SECTION-->
+                        
+                            <div class="col-12 col-lg-6 p-2 ">
+                                <h3 class="text-white">CONTACTANOS</h3>
+                                <br>
+                                <a href="../BOOTSTRAP/formulario.html" target="_blank"><button type="button m-1 p-1 " class="btn btn-danger">FORMULARIO</button></a>
+                                <br>
+                                <br>
+                                <a href="mailto.io.codoacodo@bue.edu.ar" target="_blank"></a><button type="button m-1 p-1" class="btn btn-danger">EMAIL</button>
+                            </div>
+                </div>
+
+            </div>
+            <!-- FOURTH ROW END -->
+
+
+        
+        </div> 
+        <!-- GENERAL CONTAINER END-->
+        
+    </body>
+
+</html>

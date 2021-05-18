@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="width= device-width, initial-scale=1, maximum-scale=1">
+        <title>Probando BOOTSTRAP</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2cadb9a374.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body class="body" id="body" style="background-image: url('img/backgroundpattern.jpg'); background-repeat: repeat;">
+
+        <!-- GENERAL CONTAINER FLUID-->
+        <div class="container-fluid vw-100 justify-content-center">
+        
+            
+            <!-- FIRST ROW - NAVBAR-->
+            <nav class="row bg-warning border-dark justify-content-between align-self-start">
+
+                <!--LOGO SECTION-->
+
+                <div class="col-1 justify-content-center align-content-center">
+                    <img src="img/logo.png" alt="Logo BA Codo a Codo" class="img-fluid align-text-bottom" style="max-width: 100%; height: auto;">
+                </div>
+
+                <!-- COL - NAVBAR-->
+
+                <div class="col-11 col-lg-8 align-self-start ">
+
+                    <!-- NAVBAR-->
+
+                    <div class="navbar bg-warning text-black text-center bg-warning align-self-center ">
+
+
+                        <!-- WEB LINKS LIST-->
+                        <ul class="list-unstyled list-inline bg-warning" id="navlinks">
+
+
+                            <li class="list-inline-item" >
+                                <a href="../BOOTSTRAP/INDEX.html" class="link-dark text-decoration-none"> <b> HOME</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/acercade.html" class="link-dark text-decoration-none"> <b>ACERCA DEL PROGRAMA</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none"> <b>AULA VIRTUAL</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/faqs.html" class="link-dark text-decoration-none"> <b>PREGUNTAS FRECUENTES</b> </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="../BOOTSTRAP/formulario.html" class="link-dark text-decoration-none"> <b>CONTACTO</b> </a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <!-- SECOND COL - SOCIAL MEDIA LINKS-->
+
+                <div class="col-12 col-lg-3 align-self-center">
+
+                    <!-- SOCIAL MEDIA LINKS LIST-->
+
+                    <ul class="list-unstyled list-inline bg-warning text-center text-lg-end" id="medialinks">
+
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" class="link-dark"><i class="fab fa-facebook"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/codoacodonews/" title="INSTAGRAM" class="link-dark"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="mailto.io.codoacodo@bue.edu.ar" title="CORREO ELECTRONICO" class="link-dark"><i class="fas fa-envelope"></i></a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+        
+            </nav> 
+
+    
+
+
+            <!-- SECOND ROW - HEADER-->
+            <header class="row p-5 text-center border-dark mb-5 justify-content-center" id="header">
+                
+
+                
+                <div class="col-12 text-center" id="headercol">
+                    <h1 class="text-warning "><b>&lt </b><span style="color: white" >Programa<strong> CODO a CODO </strong></span><b> &gt</b></h1>
+                    <br>
+                    <h2 class="text-white">Desarrollate como Full Stack</h2>
+                </div>
+
+
+            </header>
+
+
+
+
+
+            
+
+            <!--CAROUSEL - outside rows-->
+
+            <div class="container-fluid p-0 p-lg-5 vh-25 overflow-hidden justify-content-center" id="carouselcontainer">
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner vh-50">
+                    <div class="carousel-item active">
+                            <img src="img/carousel-1.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="img/carousel-3.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="img/carousel-4.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>   
+
+            
+
+
+        
+            <!-- THIRD ROW - CARDS SECTION -->
+            
+
+            <section class="row p-1 mt-3 mb-3 justify-content-center">
+
+                <div class="container-fluid justify-content-center overflow-auto p-0 p-lg-2 " id="cardsection"></div>
+
+                    <div class="col-12 col-lg-2 card m-0 m-lg-2 order-1 order-lg-1 p-lg-2 p-0 " style="width:18rem;" >
+                        <img src="../BOOTSTRAP/img/cardpython.jpg" class="card-img-top card1" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Python FullStack</h5>
+                        <p class="card-text">Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-8 colg-lg-4 card m-0 m-lg-2 order-3 order-lg-3 p-lg-2 p-0" style="width:36rem;" >
+                        <img src="../BOOTSTRAP/img/cardjava.jpg" class="card-img-top card2" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">JAVA Fullstack</h5>
+                        <p class="card-text">Java es una tecnología que se usa para el desarrollo de aplicaciones que convierten a la Web en un elemento más interesante y útil. Java no es lo mismo que javascript, que se trata de una tecnología sencilla que se usa para crear páginas web y solamente se ejecuta en el explorador.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-2 card m-0 m-lg-2 order-2 order-lg-3 p-lg-2 p-2" style="width:18rem;" >
+                        <img src="../BOOTSTRAP/img/cardphp.png" class="card-img-top card1" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">PHP Fullstack</h5>
+                        <p class="card-text">PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.</p>
+
+                        </div>
+                    </div>
+
+                <div class="col-12 col-md-8 col-lg-4 card m-0 m-lg-2 order-4 order-lg-4 p-lg-2 p-2" style="width:36rem;" >
+                        <img src="../BOOTSTRAP/img/cardtesting.jpg" class="card-img-top card2" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Testing QA</h5>
+                        <p class="card-text">QA Tester (Quality Assurance) es un asegurador de la calidad. Es un perfil profesional orientado principalmente a la medición de la calidad de los procesos utilizados para crear un producto de calidad.Entre sus funciones se encuentran el diseño y la ejecución integral de pruebas,   la medición sistemática, la comparación con estándares, el seguimiento de los procesos… todas ellas encaminadas a la prevención de errores durante el proceso de desarrollo del producto. Se diferencia del testing (también conocido como ‘Control de la calidad’), en que este último únicamente realiza las actividades orientadas a comprobar la calidad al final del proceso, al producto.</p>
+                        </div>
+                </div>
+
+                </div>
+            </section>
+            <!-- THIRD ROW END -->
+
+
+
+            <!-- FOURTH ROW - FOOTER -->
+            <div class="container vw-100 p-2 p-lg-2 justify-content-center align-items-center m-0" id="footer">
+                    
+                <div class="row justify-content-center align-items-center vw-100" style="background:rgb(141, 31, 231) repeat; height: auto; height:fit-content;">
+                        <!--IFRAME SECTION-->
+
+
+                            <iframe class=" col-12 col-lg-6 p-2  embed-responsive-item" src="https://www.youtube.com/embed/79wd8_lZx3g" style=" margin: 4rem;width: 30rem; height: 20rem;">IFRAME A VIDEO DE YOUTUBE</iframe>
+                            
+
+                        <!--CONTACT SECTION-->
+                        
+                            <div class="col-12 col-lg-6 p-2 text-center">
+                                <h3 class="text-white">CONTACTANOS</h3>
+                                <br>
+                                <a href="../BOOTSTRAP/formulario.html" target="_blank"><button type="button m-1 p-1 " class="btn btn-danger">FORMULARIO</button></a>
+                                <br>
+                                <br>
+                                <a href="mailto.io.codoacodo@bue.edu.ar" target="_blank"></a><button type="button m-1 p-1" class="btn btn-danger">EMAIL</button>
+                            </div>
+                </div>
+
+            </div>
+            <!-- FOURTH ROW END -->
+
+
+        
+        </div> 
+        <!-- GENERAL CONTAINER END-->
+        
+    </body>
+
+</html>
