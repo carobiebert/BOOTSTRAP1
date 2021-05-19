@@ -8,7 +8,7 @@
     background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
 }
 
-#headercol > h1:hover,h2:hover{
+.hooverh:hover{
     transform: scale(1.05);
 }
 
