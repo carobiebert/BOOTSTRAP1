@@ -8,7 +8,7 @@
     background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
 }
 
-#headercol h1:hover,h2:hover{
+#headercol > h1:hover,h2:hover{
     transform: scale(1.05);
 }
 
@@ -20,4 +20,34 @@
     min-width: 5rem;
     max-width: 100%; 
     height: auto;
+}
+
+#carouselcontainer{
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner img{ 
+    max-width:100%;
+    max-height:100%;
+    width: auto; 
+    height: auto; 
+}
+
+
+.carousel carousel-item{
+    height: inherit;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+label{
+    margin: 1rem;
+}
+
+textarea{
+    margin-left: 1rem;
 }
