@@ -64,6 +64,7 @@ textarea{
     height: auto; 
     height:fit-content;
     margin: 0;
+    align-content: center;
 }
 
 @media only screen and (min-width:900px) {
