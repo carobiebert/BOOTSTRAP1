@@ -1,4 +1,4 @@
-var texto_header_html = ` <div class="row p-2 p-lg-5 text-center mb-3 mt-0 justify-content-center w-100">
+var texto_header_html = ` <div class="row p-2 p-lg-4 text-center  mt-0 justify-content-center w-100">
 <div class="col-12 text-center " id="headercol">
 <h1 class="text-warning hooverh"><b>&lt </b><span style="color: white" >Programa<strong> CODO a CODO </strong></span><b> &gt</b></h1>
 <br>
