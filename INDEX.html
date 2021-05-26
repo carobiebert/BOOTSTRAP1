@@ -15,68 +15,7 @@
         <!-- GENERAL CONTAINER FLUID-->
         <div class="container-fluid vw-100 justify-content-center">
         
-            
-            <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-                <a class="navbar-brand" href="INDEX.html">
-                    <img src="img/logo.png" class="rounded BAlogo">
-                </a>
-            
-                <div class="align-self-center">
-            
-                    <!-- SOCIAL MEDIA LINKS LIST-->
-            
-                    <ul class="list-unstyled list-inline bg-warning text-center text-lg-end m-3" id="medialinks">
-            
-                        <li class="list-inline-item ">
-                            <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" class="link-dark"><i class="fab fa-facebook"></i></a>
-                        </li>
-            
-                        <li class="list-inline-item ">
-                            <a href="https://www.instagram.com/programacodoacodo/" title="INSTAGRAM" class="link-dark"><i class="fab fa-instagram"></i></a>
-                        </li>
-            
-                        <li class="list-inline-item ">
-                            <a href="mailto.io.codoacodo@bue.edu.ar" title="CORREO ELECTRONICO" class="link-dark"><i class="fas fa-envelope"></i></a>
-                        </li>
-            
-            
-                    </ul>
-            
-            
-                </div>
-            
-            
-                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-                    <span class="navbar-toggler-icon">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a href="INDEX.html" class="link-dark text-decoration-none m-2"> <b> HOME</b> </a>
-                        </li>
-            
-                         <li class="list-inline-item">
-                            <a href="acercade.html" class="link-dark text-decoration-none m-2"> <b>ACERCA DEL PROGRAMA</b> </a>
-                        </li>
-            
-                        <li class="list-inline-item">
-                            <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none m-2"> <b>AULA VIRTUAL</b> </a>
-                        </li>
-                            
-                        <li class="list-inline-item">
-                            <a href="faqs.html" class="link-dark text-decoration-none m-2"> <b>PREGUNTAS FRECUENTES</b> </a>
-                        </li>
-            
-                        <li class="list-inline-item">
-                            <a href="formulario.html" class="link-dark text-decoration-none m-2"> <b>CONTACTO</b> </a>
-                        </li>
-            
-                    </ul>
-                
-                </div>
-            </nav>
+  
             
             <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
             </script>
@@ -87,20 +26,15 @@
             <script src="script.js"></script>    
  
 
+            <!-- NAVBAR -->
+            <nav id="navbar"> </nav>
+            <script src="js/navbar.js"></script>
+
+
 
             <!-- HEADER-->
-            <header class="row p-1 p-lg-5 text-center mb-5 justify-content-center" id="header">
-                
-
-                
-                <div class="col-12 text-center" id="headercol">
-                    <h1 class="text-warning hooverh"><b>&lt </b><span style="color: white" >Programa<strong> CODO a CODO </strong></span><b> &gt</b></h1>
-                    <br>
-                    <h2 class="text-white hooverh">Desarrollate como Full Stack</h2>
-                </div>
-
-
-            </header>
+            <header class="row p-1 p-lg-5 text-center mb-5 justify-content-center" id="header"></header>
+            <script src="js/header.js"></script>
 
 
 
@@ -139,7 +73,7 @@
 
 
         
-            <!-- THIRD ROW - CARDS SECTION -->
+            <!--  CARDS SECTION -->
             
 
             <section class="row p-1 mt-3 mb-3 justify-content-center">
@@ -183,34 +117,14 @@
 
                 </div>
             </section>
-            <!-- THIRD ROW END -->
 
 
 
-            <!-- FOURTH ROW - FOOTER -->
-            <div class="container vw-100 p-2 p-lg-2 justify-content-center align-items-center m-0" id="footer">
-                    
-                <div class="row justify-content-center align-items-center vw-100" style="background:rgb(141, 31, 231) repeat; height: auto; height:fit-content;">
-                        <!--IFRAME SECTION-->
 
+            <!--  FOOTER -->
+            <footer id="footer"></footer>
+            <script src="js/footer.js"></script>
 
-                            <iframe class=" col-12 col-lg-6 p-2  embed-responsive-item" id="youtubeiframe" src="https://www.youtube.com/embed/79wd8_lZx3g" style=" margin: 4rem;width: 30rem; height: 20rem;">IFRAME A VIDEO DE YOUTUBE</iframe>
-                            
-
-                        <!--CONTACT SECTION-->
-                        
-                            <div class="col-12 col-lg-6 p-2 text-center">
-                                <h3 class="text-white">CONTACTANOS</h3>
-                                <br>
-                                <a href="formulario.html" target="_blank"><button type="button m-1 p-1 " class="btn btn-danger">FORMULARIO</button></a>
-                                <br>
-                                <br>
-                                <a href="mailto.io.codoacodo@bue.edu.ar" target="_blank"></a><button type="button m-1 p-1" class="btn btn-danger">EMAIL</button>
-                            </div>
-                </div>
-
-            </div>
-            <!-- FOURTH ROW END -->
 
 
         
