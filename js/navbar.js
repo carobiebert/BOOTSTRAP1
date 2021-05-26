@@ -43,7 +43,7 @@ var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light bg-war
     </li>
 
     <li class="list-inline-item">
-        <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark target="blank" text-decoration-none m-2"> <b>AULA VIRTUAL</b> </a>
+        <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none m-2" target="blank"> <b>AULA VIRTUAL</b> </a>
     </li>
         
     <li class="list-inline-item">
