@@ -1,6 +1,6 @@
-var texto_footer_html = `<div class="container vw-100 p-2 p-lg-2 justify-content-center align-items-center m-0" >
+var texto_footer_html = `<div class="container-fluid vw-100 m-0 p-2 p-lg-2 justify-content-center align-items-center" >
                     
-<div class="row justify-content-center align-items-center vw-100" style="background:rgb(141, 31, 231) repeat; height: auto; height:fit-content;">
+<div class="row justify-content-center align-items-center vw-100 m-0">
         <!--IFRAME SECTION-->
 
 

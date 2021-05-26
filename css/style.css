@@ -61,6 +61,12 @@ textarea{
     margin-left: 1rem;
 }
 
+#footer{
+    background:rgb(141, 31, 231) repeat; 
+    height: auto; 
+    height:fit-content;
+    margin: 0;
+}
 
 @media only screen and (min-width:900px) {
     
