@@ -63,6 +63,7 @@ textarea{
 
 #footer{
     background:rgb(141, 31, 231) repeat; 
+    width: 100vw;
     height: auto; 
     height:fit-content;
     margin: 0;
