@@ -59,7 +59,7 @@ textarea{
 }
 
 #footer{
-    background:rgb(141, 31, 231) repeat; 
+    background:linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
     width: 100vw;
     height: auto; 
     height:fit-content;
