@@ -1,4 +1,4 @@
-var texto_footer_html = `<div class="container-fluid vw-100 m-0 p-2 p-lg-2 justify-content-center align-items-center" >
+var texto_footer_html = `<div class="container-fluid w-100 m-0 p-2 p-lg-2 justify-content-center align-items-center" >
                     
 <div class="row justify-content-center align-items-center vw-100 m-0">
         <!--IFRAME SECTION-->
