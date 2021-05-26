@@ -27,12 +27,18 @@
     overflow: hidden;
 }
 
-.carousel-inner img{ 
-    max-width:100%;
-    max-height:100%;
-    width: auto; 
-    height: auto; 
+
+
+#carouselcontainer *{
+    height: 40rem;
 }
+
+
+#carouselcontainer img{
+    height: auto;
+    align-self: center;
+}
+
 
 
 .carousel carousel-item{
