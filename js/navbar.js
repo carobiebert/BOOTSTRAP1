@@ -10,11 +10,11 @@ var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light bg-war
 <ul class="list-unstyled list-inline bg-warning text-center text-lg-end m-3" id="medialinks">
 
     <li class="list-inline-item ">
-        <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" class="link-dark"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" target="blank" class="link-dark"><i class="fab fa-facebook"></i></a>
     </li>
 
     <li class="list-inline-item ">
-        <a href="https://www.instagram.com/programacodoacodo/" title="INSTAGRAM" class="link-dark"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/programacodoacodo/" title="INSTAGRAM" target="blank" class="link-dark"><i class="fab fa-instagram"></i></a>
     </li>
 
     <li class="list-inline-item ">
@@ -43,7 +43,7 @@ var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light bg-war
     </li>
 
     <li class="list-inline-item">
-        <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none m-2"> <b>AULA VIRTUAL</b> </a>
+        <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark target="blank" text-decoration-none m-2"> <b>AULA VIRTUAL</b> </a>
     </li>
         
     <li class="list-inline-item">
