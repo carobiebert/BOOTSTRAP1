@@ -12,10 +12,10 @@ var texto_footer_html = `<div class="container-fluid vw-100 m-0 p-2 p-lg-2 justi
             <div class="col-12 col-lg-6 p-2 text-center">
                 <h3 class="text-white">CONTACTANOS</h3>
                 <br>
-                <a href="formulario.html" target="_blank"><button type="button m-1 p-1 " class="btn btn-danger">FORMULARIO</button></a>
+                <a href="formulario.html" target="_blank"><button type="button m-1 p-1 " class="btn btn-danger hooverb">FORMULARIO</button></a>
                 <br>
                 <br>
-                <a href="mailto.io.codoacodo@bue.edu.ar" target="_blank"></a><button type="button m-1 p-1" class="btn btn-danger">EMAIL</button>
+                <a href="mailto.io.codoacodo@bue.edu.ar" target="_blank"></a><button type="button m-1 p-1" class="btn btn-danger hooverb">EMAIL</button>
             </div>
 </div>
 
