@@ -39,9 +39,24 @@
     height: inherit;
 }
 
+
+#divisor{
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(101, 78, 126)); 
+    text-align: center;
+    z-index: -1;
+}
+
+#divisor:hover{
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
+}
+
+
+
 .card:hover{
     transform: scale(1.02);
 }
+
 
 
 label{
