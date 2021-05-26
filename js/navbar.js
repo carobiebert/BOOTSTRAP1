@@ -1,4 +1,4 @@
-var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light bg-warning">
+var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light bg-warning w-100">
 <a class="navbar-brand" href="INDEX.html">
 <img src="img/logo.png" class="rounded BAlogo">
 </a>
