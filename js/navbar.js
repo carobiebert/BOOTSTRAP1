@@ -1,6 +1,6 @@
-var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light justify-content-between bg-warning w-100">
+var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light justify-content-center bg-warning w-100">
 <a class="navbar-brand" href="INDEX.html">
-<img src="img/logoba.png" class="rounded BAlogo">
+<img src="img/logoba.png" class="rounded BAlogo p-1">
 </a>
 
 <div class="align-self-center">
@@ -9,15 +9,15 @@ var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light justif
 
 <ul class="list-unstyled list-inline bg-warning text-center text-lg-end m-3" id="medialinks">
 
-    <li class="list-inline-item ">
+    <li class="list-inline-item p-1">
         <a href="https://www.facebook.com/codoacodooficial/" title="FACEBOOK" target="blank" class="link-dark"><i class="fab fa-facebook"></i></a>
     </li>
 
-    <li class="list-inline-item ">
+    <li class="list-inline-item p-1">
         <a href="https://www.instagram.com/programacodoacodo/" title="INSTAGRAM" target="blank" class="link-dark"><i class="fab fa-instagram"></i></a>
     </li>
 
-    <li class="list-inline-item ">
+    <li class="list-inline-item p-1">
         <a href="mailto.io.codoacodo@bue.edu.ar" title="CORREO ELECTRONICO" class="link-dark"><i class="fas fa-envelope"></i></a>
     </li>
 
@@ -34,23 +34,23 @@ var texto_navbar_html = `<div class="navbar navbar-expand-lg navbar-light justif
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
+    <li class="nav-item p-1 active">
         <a href="INDEX.html" class="link-dark text-decoration-none m-2"> <b> HOME</b> </a>
     </li>
 
-     <li class="list-inline-item">
+     <li class="list-inline-item p-1">
         <a href="acercade.html" class="link-dark text-decoration-none m-2"> <b>ACERCA DEL PROGRAMA</b> </a>
     </li>
 
-    <li class="list-inline-item">
+    <li class="list-inline-item p-1">
         <a href="https://aulasvirtuales.bue.edu.ar/" class="link-dark text-decoration-none m-2" target="blank"> <b>AULA VIRTUAL</b> </a>
     </li>
         
-    <li class="list-inline-item">
+    <li class="list-inline-item p-1">
         <a href="faqs.html" class="link-dark text-decoration-none m-2"> <b>PREGUNTAS FRECUENTES</b> </a>
     </li>
 
-    <li class="list-inline-item">
+    <li class="list-inline-item p-1">
         <a href="formulario.html" class="link-dark text-decoration-none m-2"> <b>CONTACTO</b> </a>
     </li>
 
