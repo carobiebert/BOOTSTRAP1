@@ -29,8 +29,13 @@
 }
 
 
+.classiccontainer{
+    background-color: white;
+}
 
-
+.espacio{
+    height: 27rem;
+}
 
 .carousel carousel-item{
     height: inherit;

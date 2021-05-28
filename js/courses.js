@@ -40,7 +40,7 @@ for (course of courses_list){
     <h5 class="card-title">${course.course_name}</h5>
     <p class="card-text">${course.course_description}</p>
     </div>
-    <a href="..." target="blank"></a><button type="button m-1 p-1 text-center mb-3" class="btn btn-danger ">INSCRIBITE</button>
+    <a href="inscripcion.html" target="blank"></a><button type="button m-1 p-1 text-center mb-3" class="btn btn-danger ">INSCRIBITE</button>
  
     </div>
     `
