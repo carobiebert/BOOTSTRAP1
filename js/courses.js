@@ -39,8 +39,9 @@ for (course of courses_list){
     <div class="card-body">
     <h5 class="card-title">${course.course_name}</h5>
     <p class="card-text">${course.course_description}</p>
-    <a href="..." target="blank"></a><button type="button m-1 p-1" class="btn btn-danger hooverb ">INSCRIBITE</button>
     </div>
+    <a href="..." target="blank"></a><button type="button m-1 p-1 text-center mb-3" class="btn btn-danger ">INSCRIBITE</button>
+ 
     </div>
     `
 }
