@@ -43,6 +43,8 @@
 
 
 #divisor{
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 2rem;
     background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(101, 78, 126)); 
     text-align: center;
